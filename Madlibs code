@@ -1,0 +1,28 @@
+adjective1 = input("Enter an adjective: ")
+location1 = input("Enter a location: ")
+adjective2 = input("Enter an adjective: ")
+adjective3 = input("Enter an adjective: ")
+adjective4 = input("Enter an adjective: ")
+ocupation1 = input("Enter an ocupation: ")
+noun1 = input("Enter a noun: ")
+body_part1 = input("Enter a bodypart: ")
+verb1 = input("Enter a verb: ")
+adjective5 = input("Enter an adjective: ")
+beast1 = input("Enter a creature: ")
+verb2 = input("Enter an verb: ")
+noun2 = input("Enter a noun: ")
+
+print ("Once upon a time, a " + adjective1 + " princess lived") 
+print ("in a " + location1 + ". She was ignored by most " + adjective2 + " knights")
+print ("because the idea of a " + location1 + " princess wasn't")
+print (adjective3 + " enough. But she deserved to be rescued as well!")
+print ("She deserved to be " + adjective4 + ". Everyday she waited")
+print ("for her " + ocupation1 + " charming to come, but he never")
+print ("came. One " + noun1 + ", she decided to take her life into")
+print ("her own " + body_part1 + ", she " + verb1 + " the " + location1 + " walls,")
+print ("defeated the " + adjective5 + " " + beast1 + ", and walked out")
+print ("the opening of the " + location1 + ". Ever since then, she's")
+print ("been " + verb2 + " all of the other princesses of the " + noun2 + ".")
+
+
+
