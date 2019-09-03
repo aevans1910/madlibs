@@ -21,21 +21,21 @@ def store_inputs ():
     words ["verb2"] = input("Enter an verb: ")
     words ["noun2"] = input("Enter a noun: ")
 
-store_input()
+store_inputs()
 
 def print_Madlibs():
     print ("Once upon a time, a " + words["adjective1"] + " princess lived") 
-    print ("in a " + words["location1"] + ". She was ignored by most " + words["adjective2"] + " knights")
-    print ("because the idea of a " + words["location1"] + " princess wasn't")
-    print (words["adjective3"] + " enough. But she deserved to be rescued as well!")
+    print ("in a " + words["location1"] + ". She was ignored by most " + words["adjective2"] + " knights.")
+    print ("The idea of a " + words["location1"] + " princess wasn't")
+    print (words["adjective3"] + " enough for them. But she deserved to be rescued as well!")
     print ("She deserved to be " + words["adjective4"] + ". Everyday she waited")
     print ("for her " + words["ocupation1"] + " charming to come, but he never")
-    print ("came. One " + words["noun1"] + ", she decided to take her life into")
+    print ("came. One " + words["noun1"] + ", she decided to take life into")
     print ("her own " + words["body_part1"] + ", she " + words["verb1"] + " the " + words["location1"] + " walls,")
-    print ("defeated the " + words["adjective5"] + " " + words["beast1"] + ", and walked out")
+    print ("defeated the " + words["adjective5"] + " " + words["beast1"] + ", and walked out through")
     print ("the opening of the " + words["location1"] + ". Ever since then, she's")
     print ("been " + words["verb2"] + " all of the other princesses of the " + words["noun2"] + ".")
 
-print_Madlib()
+print_Madlibs()
 
 
