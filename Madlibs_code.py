@@ -6,7 +6,7 @@
 
 words = {}
 
-def store_input ():
+def store_inputs ():
     words ["adjective1"] = input("Enter an adjective: ")
     words ["location1"] = input("Enter a location: ")
     words ["adjective2"] = input("Enter an adjective: ")
@@ -23,7 +23,7 @@ def store_input ():
 
 store_input()
 
-def print_Madlib():
+def print_Madlibs():
     print ("Once upon a time, a " + words["adjective1"] + " princess lived") 
     print ("in a " + words["location1"] + ". She was ignored by most " + words["adjective2"] + " knights")
     print ("because the idea of a " + words["location1"] + " princess wasn't")
