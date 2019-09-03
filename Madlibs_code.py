@@ -1,3 +1,9 @@
+#I would like to thank Mike Dane for helping me figure out the basic outline of 
+# this project with his youtube tutorial "https://www.youtube.com/watch?v=u7g9mRzQLYE"
+#on how to code Madlibs. I would also like to thank Meredith Murphy for helping me
+#figure out how to put the basic outline of my code into functions and how to use
+#a dictionary.
+
 words = {}
 
 def store_input ():
